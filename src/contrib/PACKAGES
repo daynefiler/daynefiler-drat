@@ -1,0 +1,18 @@
+Package: kBET
+Version: 0.99.6
+Imports: FNN, RColorBrewer, ggplot2, cluster, stats, grDevices,
+       utils, MASS
+Suggests: knitr, M3Drop, RCurl, grid, gridBase, gridGraphics,
+       gridExtra, VennDiagram, limma
+License: GPL
+MD5sum: 7fb36a3097122ff6a943d9ee0fecfbe8
+NeedsCompilation: no
+
+Package: lisi
+Version: 1.0
+Imports: Rcpp (>= 1.0.1), RANN, ggplot2, dplyr, tidyr
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: testthat
+License: GPL-3 + file LICENSE
+MD5sum: d7bfb9a982cec75c356e59c89277ac93
+NeedsCompilation: yes
