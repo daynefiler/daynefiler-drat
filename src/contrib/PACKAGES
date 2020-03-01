@@ -1,3 +1,15 @@
+Package: harmony
+Version: 1.0
+Depends: R(>= 3.4.0), Rcpp
+Imports: dplyr, cowplot, tidyr, ggplot2, irlba, Matrix, methods,
+       tibble, rlang
+LinkingTo: Rcpp, RcppArmadillo, RcppProgress
+Suggests: Seurat, SingleCellExperiment, testthat, knitr, rmarkdown,
+       BiocStyle
+License: GPL-3 + file LICENSE
+MD5sum: 43d4d3695f13b8bfad00a79ff483e0ea
+NeedsCompilation: yes
+
 Package: kBET
 Version: 0.99.6
 Imports: FNN, RColorBrewer, ggplot2, cluster, stats, grDevices,
