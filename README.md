@@ -1,4 +1,4 @@
-My [drat](http://dirk.eddelbuettel.com/code/drat.html) repository for hosting non-CRAN/BioConductor packages that my own packages rely on. The GitHub repo for this R package repository is [here](https://github.com/daynefiler/daynefiler-drat).
+My [drat](http://dirk.eddelbuettel.com/code/drat.html) repository for hosting non-CRAN/BioConductor packages that my own packages rely on. The GitHub repo for this R package repository is [here](https://github.com/daynefiler/drat).
 
 ## Current Packages
 - **[lisi](https://github.com/immunogenomics/LISI)**
