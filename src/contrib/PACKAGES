@@ -4,20 +4,30 @@ Imports: grDevices, graphics, rslurm, data.table
 MD5sum: 1fd518e3a529f43f7e81a6abdde05c2a
 NeedsCompilation: no
 
+Package: dlfUtils
+Version: 0.6.0
+Imports: grDevices, graphics, rslurm, data.table, R.utils, tinytex
+MD5sum: bb68074964552b98e098379a879bf5f5
+NeedsCompilation: no
+
 Package: harmony
 Version: 1.0
 Depends: R(>= 3.4.0), Rcpp
-Imports: dplyr, cowplot, tidyr, ggplot2, irlba, Matrix, methods, tibble, rlang
+Imports: dplyr, cowplot, tidyr, ggplot2, irlba, Matrix, methods,
+       tibble, rlang
 LinkingTo: Rcpp, RcppArmadillo, RcppProgress
-Suggests: Seurat, SingleCellExperiment, testthat, knitr, rmarkdown, BiocStyle
+Suggests: Seurat, SingleCellExperiment, testthat, knitr, rmarkdown,
+       BiocStyle
 License: GPL-3 + file LICENSE
 MD5sum: 43d4d3695f13b8bfad00a79ff483e0ea
 NeedsCompilation: yes
 
 Package: kBET
 Version: 0.99.6
-Imports: FNN, RColorBrewer, ggplot2, cluster, stats, grDevices, utils, MASS
-Suggests: knitr, M3Drop, RCurl, grid, gridBase, gridGraphics, gridExtra, VennDiagram, limma
+Imports: FNN, RColorBrewer, ggplot2, cluster, stats, grDevices,
+       utils, MASS
+Suggests: knitr, M3Drop, RCurl, grid, gridBase, gridGraphics,
+       gridExtra, VennDiagram, limma
 License: GPL
 MD5sum: 7fb36a3097122ff6a943d9ee0fecfbe8
 NeedsCompilation: no

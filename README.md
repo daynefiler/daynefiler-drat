@@ -9,3 +9,4 @@ My [drat](http://dirk.eddelbuettel.com/code/drat.html) repository for hosting no
     - *v1.0: [272fa11](https://github.com/immunogenomics/harmony/tree/272fa115bc77d594223fe8e55f1c9fbe7d31dee4)*
 - **[dlfUtils](https://github.com/daynefiler/dlfUtils)**
     - *v0.2.0 [af810ff](https://github.com/daynefiler/dlfUtils/releases/tag/0.2.0)*
+    - *v0.6.0 [e0359eb](https://github.com/daynefiler/dlfUtils/releases/tag/v0.6)*
