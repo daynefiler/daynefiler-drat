@@ -10,6 +10,12 @@ Imports: grDevices, graphics, rslurm, data.table, R.utils, tinytex
 MD5sum: bb68074964552b98e098379a879bf5f5
 NeedsCompilation: no
 
+Package: dlfUtils
+Version: 0.8.0
+Imports: grDevices, graphics, rslurm, data.table, R.utils, tinytex
+MD5sum: 1fb9b313cab60e7fa7a558d5cd4e7811
+NeedsCompilation: no
+
 Package: harmony
 Version: 1.0
 Depends: R(>= 3.4.0), Rcpp

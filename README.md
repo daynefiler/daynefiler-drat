@@ -10,3 +10,9 @@ My [drat](http://dirk.eddelbuettel.com/code/drat.html) repository for hosting no
 - **[dlfUtils](https://github.com/daynefiler/dlfUtils)**
     - *v0.2.0 [af810ff](https://github.com/daynefiler/dlfUtils/releases/tag/0.2.0)*
     - *v0.6.0 [e0359eb](https://github.com/daynefiler/dlfUtils/releases/tag/v0.6)*
+    - *v0.8.0 [fcbeb7f](https://github.com/daynefiler/dlfUtils/releases/tag/v0.8)*
+
+## Notes for maintanance
+
+To add a package, use `drat::insertPackage("pathTo.tar.gz", repodir = "~/Github/drat/")`
+
