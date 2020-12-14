@@ -12,7 +12,9 @@ My [drat](http://dirk.eddelbuettel.com/code/drat.html) repository for hosting no
     - *v0.6.0 [e0359eb](https://github.com/daynefiler/dlfUtils/releases/tag/v0.6)*
     - *v0.8.0 [fcbeb7f](https://github.com/daynefiler/dlfUtils/releases/tag/v0.8)*
 
-## Notes for maintanance
+## Notes for maintenance
 
-To add a package, use `drat::insertPackage("pathTo.tar.gz", repodir = "~/Github/drat/")`
+To add a package, use `drat::insertPackage("pathTo.tar.gz", repodir = "~/Github/drat/")`.
+Doing so should update `src/conrib/PACKAGES`, `src/contrib/PACKAGES.gz`, `src/contrib/PACKAGES.rds` and add the source package file to `src/contrib`. 
+After updating the local repository, using `drat::insertPackage`, update this README and commit the changes.
 
